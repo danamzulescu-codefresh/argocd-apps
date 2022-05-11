@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
- project: eks-us-east1
+ project: dan-a-eks
  source:
    repoURL: https://github.com/danamzulescu-codefresh/k8s-apps/
    path: /dev/helm-nginx
