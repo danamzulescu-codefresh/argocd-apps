@@ -9,8 +9,8 @@ spec:
     server: https://kubernetes.default.svc
   project: dan-a-eks
   source:
-    path: rollout-test1
-    repoURL: https://github.com/danamzulescu-codefresh/k8s-apps/dev/express-microservice-canary-rollout/
+    path: /dev/express-microservice-canary-rollout/
+    repoURL: https://github.com/danamzulescu-codefresh/k8s-apps/
     targetRevision: HEAD
   syncPolicy:
     automated:
