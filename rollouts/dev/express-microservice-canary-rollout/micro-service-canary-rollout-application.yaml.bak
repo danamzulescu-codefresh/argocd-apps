@@ -10,7 +10,7 @@ spec:
   project: dan-a-eks
   source:
     path: dev/express-microservice-canary-rollout/
-    repoURL: https://github.com/danamzulescu-codefresh/k8s-apps/
+    repoURL: https://github.com/danamzulescu-codefresh/k8s-apps/dev/express-microservice-canary-rollout/
     targetRevision: HEAD
   syncPolicy:
     automated:
